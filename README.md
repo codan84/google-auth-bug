@@ -22,5 +22,3 @@ Actual: error
 ```
  (NOBRIDGE) ERROR  Invariant Violation: TurboModuleRegistry.getEnforcing(...): 'RNGoogleSignin' could not be found. Verify that a module by this name is registered in the native binary. [Component Stack]
 ```
-
-
