@@ -12,7 +12,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codan84.googleauthbug"
     },
     "android": {
       "adaptiveIcon": {
@@ -32,7 +33,12 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "@react-native-google-signin/google-signin"
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.886228719834-99f43n1ku6737rei233n5cf31vc7vg0t"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
